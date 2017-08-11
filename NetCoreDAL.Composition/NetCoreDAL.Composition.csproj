@@ -8,4 +8,12 @@
     <PackageReference Include="Autofac" Version="4.6.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\NetCoreDAL.Businesss.Infrastructure\NetCoreDAL.Businesss.Infrastructure.csproj" />
+    <ProjectReference Include="..\NetCoreDAL.Business\NetCoreDAL.Business.csproj" />
+    <ProjectReference Include="..\NetCoreDAL.DataAccess.Infrastructure\NetCoreDAL.DataAccess.Infrastructure.csproj" />
+    <ProjectReference Include="..\NetCoreDAL.DataAccess\NetCoreDAL.DataAccess.csproj" />
+    <ProjectReference Include="..\NetCoreDAL.Domain\NetCoreDAL.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

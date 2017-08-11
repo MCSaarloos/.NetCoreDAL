@@ -1,4 +1,6 @@
 ﻿using Autofac;
+using NetCoreDAL.DataAccess.Impl;
+using NetCoreDAL.DataAccess.Infrastructure.Interfaces;
 using System.Reflection;
 
 namespace NetCoreDAL.Composition.Modules
@@ -18,6 +20,10 @@ namespace NetCoreDAL.Composition.Modules
                 .Where(t => t.Name.EndsWith("Repository"))
                 .AsImplementedInterfaces()
                 .PreserveExistingDefaults();
+
+
+            builder.RegisterType<UnitOfWork>().As<IUnitOfWork>().InstancePerRequest();
+            builder.RegisterGeneric(typeof(BaseRepository<>)).As(typeof(IRepository<>)).InstancePerRequest();
         }
     }
 }

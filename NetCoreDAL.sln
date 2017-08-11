@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreDAL.DataAccess", "NetCoreDAL.DataAccess\NetCoreDAL.DataAccess.csproj", "{10C17EF0-0336-4BCB-82A6-B0FD2DBED7FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreDAL.DataAccess.Infrastructure", "NetCoreDAL.DataAccess.Infrastructure\NetCoreDAL.DataAccess.Infrastructure.csproj", "{055A9CDB-5827-4665-A48B-256372A50387}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreDAL.Domain", "NetCoreDAL.Domain\NetCoreDAL.Domain.csproj", "{F478B5FF-5098-4348-9703-0A4018B0775B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreDAL.Businesss.Infrastructure", "NetCoreDAL.Businesss.Infrastructure\NetCoreDAL.Businesss.Infrastructure.csproj", "{33D0DD78-2614-424E-BD19-3D8EE8E0318F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreDAL.Business", "NetCoreDAL.Business\NetCoreDAL.Business.csproj", "{808E255A-DFA6-42F3-B0B5-15249377814B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00. Composition", "00. Composition", "{2974FD57-58B4-419B-955B-561DD49F3E54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10. Presenation", "10. Presenation", "{0C310C3A-7ECB-41EA-B0ED-C5198BF3F172}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20. Business", "20. Business", "{18F5F33B-D09C-4618-B743-0E8238517B55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "30. DataAccess", "30. DataAccess", "{6A2BD26F-87BB-4438-BE22-FC984B1334C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "40.Domain", "40.Domain", "{2F914008-AA72-4ED1-91AB-DF06EE706010}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreDAL.Composition", "NetCoreDAL.Composition\NetCoreDAL.Composition.csproj", "{A0ACA402-FBEF-4F6F-9F7F-F2F8F8D21D12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreDAL.Web", "NetCoreDAL.Web\NetCoreDAL.Web.csproj", "{48A4EF4B-F486-4665-B345-F886327E6346}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10C17EF0-0336-4BCB-82A6-B0FD2DBED7FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10C17EF0-0336-4BCB-82A6-B0FD2DBED7FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10C17EF0-0336-4BCB-82A6-B0FD2DBED7FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10C17EF0-0336-4BCB-82A6-B0FD2DBED7FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{055A9CDB-5827-4665-A48B-256372A50387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{055A9CDB-5827-4665-A48B-256372A50387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{055A9CDB-5827-4665-A48B-256372A50387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{055A9CDB-5827-4665-A48B-256372A50387}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F478B5FF-5098-4348-9703-0A4018B0775B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F478B5FF-5098-4348-9703-0A4018B0775B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F478B5FF-5098-4348-9703-0A4018B0775B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F478B5FF-5098-4348-9703-0A4018B0775B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33D0DD78-2614-424E-BD19-3D8EE8E0318F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33D0DD78-2614-424E-BD19-3D8EE8E0318F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33D0DD78-2614-424E-BD19-3D8EE8E0318F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33D0DD78-2614-424E-BD19-3D8EE8E0318F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{808E255A-DFA6-42F3-B0B5-15249377814B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{808E255A-DFA6-42F3-B0B5-15249377814B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{808E255A-DFA6-42F3-B0B5-15249377814B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{808E255A-DFA6-42F3-B0B5-15249377814B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0ACA402-FBEF-4F6F-9F7F-F2F8F8D21D12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0ACA402-FBEF-4F6F-9F7F-F2F8F8D21D12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0ACA402-FBEF-4F6F-9F7F-F2F8F8D21D12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0ACA402-FBEF-4F6F-9F7F-F2F8F8D21D12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48A4EF4B-F486-4665-B345-F886327E6346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A4EF4B-F486-4665-B345-F886327E6346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A4EF4B-F486-4665-B345-F886327E6346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48A4EF4B-F486-4665-B345-F886327E6346}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{10C17EF0-0336-4BCB-82A6-B0FD2DBED7FD} = {6A2BD26F-87BB-4438-BE22-FC984B1334C6}
+		{055A9CDB-5827-4665-A48B-256372A50387} = {6A2BD26F-87BB-4438-BE22-FC984B1334C6}
+		{F478B5FF-5098-4348-9703-0A4018B0775B} = {2F914008-AA72-4ED1-91AB-DF06EE706010}
+		{33D0DD78-2614-424E-BD19-3D8EE8E0318F} = {18F5F33B-D09C-4618-B743-0E8238517B55}
+		{808E255A-DFA6-42F3-B0B5-15249377814B} = {18F5F33B-D09C-4618-B743-0E8238517B55}
+		{A0ACA402-FBEF-4F6F-9F7F-F2F8F8D21D12} = {2974FD57-58B4-419B-955B-561DD49F3E54}
+		{48A4EF4B-F486-4665-B345-F886327E6346} = {0C310C3A-7ECB-41EA-B0ED-C5198BF3F172}
+	EndGlobalSection
+EndGlobal
